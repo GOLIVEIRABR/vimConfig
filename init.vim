@@ -17,6 +17,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'wfxr/minimap.vim'
 Plug 'Yggdroot/indentLine'
+Plug 'rbong/vim-flog'
 
 if (has("nvim"))
     Plug 'nvim-lua/plenary.nvim'
@@ -59,10 +60,10 @@ set cursorline
 
 
 " Minimap """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:minimap_width = 10
-let g:minimap_auto_start = 1
-let g:minimap_auto_start_win_enter = 1
-let g:minimap_highlight_range = 1
+" let g:minimap_width = 10
+" let g:minimap_auto_start = 1
+" let g:minimap_auto_start_win_enter = 1
+" let g:minimap_highlight_range = 1
 
 
 
